@@ -25,7 +25,10 @@
     "url": "git+https://github.com/raulanatol/template-ts-package.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "raulanatol",
+    "email": "raul@natol.es"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/raulanatol/template-ts-package/issues"
@@ -35,16 +38,16 @@
   },
   "homepage": "https://github.com/raulanatol/template-ts-package#readme",
   "devDependencies": {
-    "@cowcoders/eslint-config": "^1.2.9",
-    "@types/jest": "^26.0.23",
-    "@types/node": "^15.6.1",
-    "@typescript-eslint/eslint-plugin": "^4.25.0",
-    "@typescript-eslint/parser": "^4.25.0",
-    "esbuild": "^0.12.5",
-    "eslint": "^7.27.0",
-    "jest": "^27.0.3",
-    "ts-jest": "^27.0.1",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "@cowcoders/eslint-config": "1.2.9",
+    "@types/jest": "26.0.23",
+    "@types/node": "15.6.1",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "esbuild": "0.12.5",
+    "eslint": "7.27.0",
+    "jest": "27.0.3",
+    "ts-jest": "27.0.1",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.2"
   }
 }

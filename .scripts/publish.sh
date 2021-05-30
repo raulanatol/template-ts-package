@@ -23,12 +23,11 @@ assert_ready_to_publish() {
   fi
 }
 
-# TODO cleanup the dist folder to publish
 prepare_folder() {
-  echo "Prepare folder"
-  #  rm dist/tsc/**/*.js*
-  mkdir dist/types
-  cp dist/tsc/**/*.d.ts dist/types
+  echo "Cleanup folders to publish"
+  find dist/tsc -type f -name '*.js' -print -delete
+  find dist/tsc -type f -name '*.js.map' -print -delete
+  mv dist/tsc dist/types
 }
 
 publish() {
