@@ -6,5 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: |
-          make
+      - name: Init project
+        run: make init
+      - name: Build and tests
+        run: make
