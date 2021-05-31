@@ -17,11 +17,3 @@ indent_style = tab
 [*.html]
 indent_style = unset
 insert_final_newline = unset
-
-[translations/*.ts]
-indent_style = unset
-insert_final_newline = unset
-
-[docs/*]
-indent_style = unset
-insert_final_newline = unset
